@@ -5,12 +5,8 @@ const Hobby: React.FC<{ hobby: string }> = ({ hobby }) => {
       <div>{hobby}</div>
       <h3>number</h3>
       <h4>4</h4>
-    </>
-  );
-  return (
-    <>
-      <h2>hobby</h2>
-      <div>{hobby}</div>
+      <div>lets rebase</div>
+      <div>number</div>
     </>
   );
 };
