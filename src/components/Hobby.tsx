@@ -6,6 +6,12 @@ const Hobby: React.FC<{ hobby: string }> = ({ hobby }) => {
       <div>number</div>
     </>
   );
+  return (
+    <>
+      <h2>hobby</h2>
+      <div>{hobby}</div>
+    </>
+  );
 };
 
 export default Hobby;
