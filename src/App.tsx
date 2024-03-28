@@ -2,7 +2,7 @@ import Hobby from './components/Hobby';
 import LandingIntro from './components/LandingIntro';
 
 function App() {
-  const hobbies = ['Poker', 'Tennis', 'Programming', 'Git'];
+  const hobbies = ['Poker', 'Tennis', 'Programming', 'Git', 'Cherry Picking'];
 
   return (
     <>
