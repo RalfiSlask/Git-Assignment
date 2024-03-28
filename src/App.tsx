@@ -1,3 +1,6 @@
+import LandingIntro from './components/LandingIntro';
+import Hobby from './components/Hobby';
+
 function App() {
   const hobbies = ['Poker', 'Tennis', 'Programming', 'Git', 'Cherry Picking'];
 
