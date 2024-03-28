@@ -3,6 +3,7 @@ const Hobby: React.FC<{ hobby: string }> = ({ hobby }) => {
     <>
       <h4>Hobby number</h4>
       <div>{hobby}</div>
+      <div>number</div>
     </>
   );
 };
