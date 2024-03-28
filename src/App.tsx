@@ -1,12 +1,18 @@
+import Hobby from './components/Hobby';
 import LandingIntro from './components/LandingIntro';
 
 function App() {
+  const hobbies = ['Poker', 'Tennis', 'Programming'];
+
   return (
     <>
       <LandingIntro
-        title={'My hobby'}
+        title={'My hobbies'}
         description="Git assignment for my hobbies"
       />
+      {hobbies.map((hobby, index) => {
+        return <Hobby key={index} hobby={hobby} />;
+      })}
     </>
   );
 }
