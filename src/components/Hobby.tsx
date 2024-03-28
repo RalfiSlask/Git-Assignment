@@ -7,6 +7,7 @@ const Hobby: React.FC<{ hobby: string }> = ({ hobby }) => {
       <h4>4</h4>
       <div>lets rebase</div>
       <h5>number</h5>
+      <h4>7</h4>
     </>
   );
 };
