@@ -8,6 +8,7 @@ const LandingIntro: React.FC<IInformation> = ({ title, description }) => {
     <section>
       <h1>{title}</h1>
       <p>{description}</p>
+      <p>Git</p>
     </section>
   );
 };
