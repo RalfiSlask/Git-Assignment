@@ -3,13 +3,8 @@ const Hobby: React.FC<{ hobby: string }> = ({ hobby }) => {
     <>
       <h4>Hobby number</h4>
       <div>{hobby}</div>
+      <div>lets rebase</div>
       <div>number</div>
-    </>
-  );
-  return (
-    <>
-      <h2>hobby</h2>
-      <div>{hobby}</div>
     </>
   );
 };
